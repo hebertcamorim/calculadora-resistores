@@ -9,6 +9,9 @@
 </head>
 <body>
     <section class="home">
+        <header class="header">
+            <h1>Calculadora Resistores v1.0</h1>
+        </header>
         <div class="box">
             <div class="select-band">
                 <div>
@@ -104,15 +107,18 @@
                     <div class="size color3"></div>
                     <div class="size color4"></div>
                     <div class="size color5"></div>
-                    <div class="size color6"></div>
                 </div>
                 <div class="terminal"></div>
             </div>
             <div class="result-area">
                 <span class="result"></span>
-                <button class="btn">Calcular</button>
+                <div class="btn">
+                    <button onclick="calcular()">Calcular</button>
+                    <button onclick="limpar()">Limpar</button>
+                </div>
             </div>
         </div>
     </section>
+    <script src="/javascript/script.js"></script>
 </body>
 </html>
