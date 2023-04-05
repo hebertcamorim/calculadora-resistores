@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+:root {
+    --color-primary: #13293d;
+    --color-primary-light: #006494;
+    --color-secondary: #1b98e0;
+    --color-text: #e8f1f2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--color-primary);
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 860px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.select-band {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    height: 20%;
+}
+
+.draw {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+}
+
+.terminal {
+    width: 140px;
+    height: 6px;
+    background-color: grey;
+}
+
+.base {
+    display: flex;
+    justify-content: space-evenly;
+    width: 340px;
+    height:80px;
+    background-color: rgb(255, 200, 140);
+    border-radius: 20px;
+}
+
+.base .size {
+    width: 20px;
+    height: 80px;
+}
+
+.base .color1 {
+    background-color: blue;
+}
+
+.base .color2 {
+    background-color: blue;
+}
+
+.base .color3 {
+    background-color: blue;
+}
+
+.base .color4 {
+    background-color: blue;
+}
+
+.base .color5 {
+    background-color: blue;
+}
+
+.base .color6 {
+    background-color: blue;
+}
+
+.result-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+}
+
+.result-area span {
+    padding: 50px 140px;
+    margin-bottom: 40px;
+}
+
+.result-area button {
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    background-color: var(--color-primary-light);
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.result-area button:hover {
+    background-color: var(--color-secondary);
+}
+
+.result-area button:active {
+    background-color: green;
+}
